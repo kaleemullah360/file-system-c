@@ -17,3 +17,4 @@ create-file:
 	vim Sample.txt
 
 view-project:
+	firefox https://github.com/kaleemullah360/file-system-c
