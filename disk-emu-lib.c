@@ -1,6 +1,6 @@
 /*
  * \file
- *         disk-emu-lib.c
+ *         disk-emu-lib.h
  * \author
  *         Kaleem Ullah    <MSCS14059@ITU.EDU.PK>
  *
@@ -14,14 +14,15 @@
  *
  * \What it does:
  *
- *    There are four operations: 
+ *    There are seven operations: 
  *
  *      1. Open Disk:   to open disk for reading & writing
  *      2. Read Disk:   read disk content on specific location (cluster)
  *      3. Write Disk:  Write to disk on specific location (cluster)
  *      4. Format Disk: Erase existing disk 
- *      4. Close Disk:  close disk after read write operations
- *      4. Sync Disk:   complete pending read write operations
+ *      5. Close Disk:  close disk after read write operations
+ *      6. Sync Disk:   complete pending read write operations
+ *    7. View File:   view whole file written on disk
  *
  *
  * \Why it does so ?

@@ -30,7 +30,7 @@ What it does:
 
      6. Sync Disk:   complete pending read write operations
 
-	 7. View File:   view whole file written on disk
+     7. View File:   view whole file written on disk
 
 
 Why it does so ?
