@@ -12,3 +12,5 @@ clean-all:
 	rm -f *.o
 	rm -f *.exe
 	rm -f *.txt
+
+c-all:
