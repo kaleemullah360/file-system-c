@@ -1,12 +1,12 @@
 Disk Emulation to Study Operating System File System -C Language -Linux OS
 ==============================
 
-\author
+Author
 
         Kaleem Ullah    <MSCS14059@ITU.EDU.PK>
 
 
-\Short Description:
+Short Description:
 
    File System i.e FAT, FAT32, ExFat, NTFS, HPFS, GPT, EXT1,2,3,4
 are storage representation to Operating System of physical unformatted RAW Disk.
@@ -14,7 +14,7 @@ using using LBA(Logical Block Addressing) scheme, storage cluster size and forma
 this library is design to emulate disk operations performed by OS.
 
 
-\What it does:
+What it does:
 
    There are seven operations: 
 
@@ -33,11 +33,11 @@ this library is design to emulate disk operations performed by OS.
 	 7. View File:   view whole file written on disk
 
 
-\Why it does so ?
+Why it does so ?
  just to simulate real hardisk and check to see how it works :)
 
 
-\Assumptions:
+Assumptions:
 
  max file size is 1024KB i.e 1MB
  disk cluster or BLOCK SIZE (in our case) is 4096Bytes i.e 4KB
@@ -45,7 +45,7 @@ this library is design to emulate disk operations performed by OS.
  write_buffer is then use to write data to disk, read_buffer is used to display data to user.
 
 
-\Intimation:
+Intimation:
 
    some parts of the assignments are created taking help from [1]
 for helping and educational purposes to get familarity with syntax and other libs
