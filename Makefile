@@ -20,4 +20,4 @@ view-project:
 	firefox https://github.com/kaleemullah360/file-system-c
 
 view-profile:
-	file-system-c
+	firefox https://github.com/kaleemullah360 
