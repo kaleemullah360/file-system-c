@@ -1,12 +1,5 @@
-# file-system-c
 Disk Emulation to Study Operating System File System -C Language -Linux OS
 ==============================
-## SYNOPSIS
-
-\file
-
-        my-disk.c
-
 
 \author
 
@@ -23,7 +16,7 @@ this library is design to emulate disk operations performed by OS.
 
 \What it does:
 
-   There are six operations: 
+   There are seven operations: 
 
      1. Open Disk:   to open disk for reading & writing
 
@@ -36,6 +29,8 @@ this library is design to emulate disk operations performed by OS.
      5. Close Disk:  close disk after read write operations
 
      6. Sync Disk:   complete pending read write operations
+
+	 7. View File:   view whole file written on disk
 
 
 \Why it does so ?
