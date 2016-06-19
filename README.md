@@ -40,8 +40,11 @@ Why it does so ?
 Assumptions:
 
  max file size is 1024KB i.e 1MB
+
  disk cluster or BLOCK SIZE (in our case) is 4096Bytes i.e 4KB
+
  allocating BLOCK_SIZE memory in read_buffer, write_buffer containg data to be process
+ 
  write_buffer is then use to write data to disk, read_buffer is used to display data to user.
 
 
