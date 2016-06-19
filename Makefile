@@ -16,4 +16,4 @@ clean-all:
 create-file:
 	vim Sample.txt
 
-view-
+view-project:
