@@ -52,7 +52,7 @@ for helping and educational purposes to get familarity with syntax and other lib
 [1] https://github.com/jmelai/Project.git
 
 
-**Rquired Dependencies**
+**Rquired Libraries**
 
 1. stdio.h
 2. string.h
