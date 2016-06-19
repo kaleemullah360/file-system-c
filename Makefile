@@ -14,3 +14,4 @@ clean-all:
 	rm -f *.txt
 
 create-file:
+	vim Sample.txt
