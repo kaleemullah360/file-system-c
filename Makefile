@@ -8,3 +8,8 @@ clean:
 	rm -f *.o
 	rm -f *.exe
 	rm -f *.txt
+
+clean:
+	rm -f *.o
+	rm -f *.exe
+	rm -f *.txt
