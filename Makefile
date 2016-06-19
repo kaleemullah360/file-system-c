@@ -13,4 +13,4 @@ clean-all:
 	rm -f *.exe
 	rm -f *.txt
 
-create-all:
+create-file:
