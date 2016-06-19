@@ -9,7 +9,7 @@ clean:
 	rm -f *.exe
 	rm -f *.txt
 
-clean:
+clean-all:
 	rm -f *.o
 	rm -f *.exe
 	rm -f *.txt
