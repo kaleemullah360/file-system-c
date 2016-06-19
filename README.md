@@ -23,7 +23,7 @@ this library is design to emulate disk operations performed by OS.
 
 \What it does:
 
-   There are four operations: 
+   There are six operations: 
 
      1. Open Disk:   to open disk for reading & writing
 
@@ -43,6 +43,7 @@ this library is design to emulate disk operations performed by OS.
 
 
 \Assumptions:
+
  max file size is 1024KB i.e 1MB
  disk cluster or BLOCK SIZE (in our case) is 4096Bytes i.e 4KB
  allocating BLOCK_SIZE memory in read_buffer, write_buffer containg data to be process
@@ -50,6 +51,7 @@ this library is design to emulate disk operations performed by OS.
 
 
 \Intimation:
+
    some parts of the assignments are created taking help from [1]
 for helping and educational purposes to get familarity with syntax and other libs
 [1] https://github.com/jmelai/Project.git
