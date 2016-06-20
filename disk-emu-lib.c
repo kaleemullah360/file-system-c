@@ -22,7 +22,7 @@
  *      4. Format Disk: Erase existing disk 
  *      5. Close Disk:  close disk after read write operations
  *      6. Sync Disk:   complete pending read write operations
- *    7. View File:   view whole file written on disk
+ *		7. View File:   view whole file written on disk
  *
  *
  * \Why it does so ?
