@@ -112,7 +112,7 @@ int writeBlock(int disk, int blockNr, void *block){
 /* ================ Erase (Format) Disk ================ */
 // Completely erasing or formatting disk
 int formatDisk(char *fileName){
-  fclose(fopen(fileName, "w"));
+  fclose(fopen(fileName, "w"));	// it will create an empty new file and discard the existing one.
   return 0;
 }
 /* ============== end  Erase (Format) Disk  ============== */
