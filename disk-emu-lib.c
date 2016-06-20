@@ -1,6 +1,6 @@
 /*
  * \file
- *         disk-emu-lib.h
+ *         disk-emu-lib.c
  * \author
  *         Kaleem Ullah    <MSCS14059@ITU.EDU.PK>
  *
