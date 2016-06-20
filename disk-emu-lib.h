@@ -8,7 +8,7 @@
  *
  *    File System i.e FAT, FAT32, ExFat, NTFS, HPFS, GPT, EXT1,2,3,4
  * are storage representation to Operating System of physical unformatted RAW Disk.
- * using using LBA(Logical Block Addressing) scheme, storage cluster size and formatting method OS stores our file on disk media.
+ * using LBA(Logical Block Addressing) scheme, storage cluster size and formatting method OS stores our file on disk media.
  * 
  * this library is design to emulate disk operations performed by OS.
  *
