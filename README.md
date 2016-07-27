@@ -81,3 +81,6 @@ for clean-up,
 ```sh
 make clean
 ```
+Bonus TIP:
+
+Run Application choose 'V' to view file and input "db.sqlite3" (SQLITE) database file to view its contents.
