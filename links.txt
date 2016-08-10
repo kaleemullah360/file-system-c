@@ -1,1 +1,3 @@
 http://ddecode.com/hexdecoder/
+
+this application can be used as binary decoder.
