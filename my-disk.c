@@ -150,8 +150,8 @@ int main(int argc, char *argv[]){
   void switch_viewing(){
 
     printf("=================== View File ================================\n");
-    printf("Enter File name (Max 10 Bytes long)\n");
-    scanf("%50s", fileName); // If file_name holds a memory of 50 bytes to input 10 Bytes we use -> %10s
+    printf("Enter File name (Max 50 Bytes long)\n");
+    scanf("%50s", fileName); // If file_name holds a memory of 50 bytes to input 50 Bytes we use -> %50s
     
     int c;
     FILE *file;
