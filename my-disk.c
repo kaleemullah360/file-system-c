@@ -70,7 +70,7 @@ int main(int argc, char *argv[]){
   void switch_reading(){
     printf("=================== File Reading ================================\n");
     printf("Enter File name (Max 10 Bytes long)\n");
-    scanf("%10s", fileName); // If file_name holds a memory of 10 bytes
+    scanf("%50s", fileName); // If file_name holds a memory of 50 bytes
 
     printf("Enter Block Number\n");
     scanf("%10d", block); // If file_data holds a memory of 1 byte
