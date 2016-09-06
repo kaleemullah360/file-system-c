@@ -50,7 +50,7 @@ int main(int argc, char *argv[]){
 
   // dynamically allocating memory to hold require byte.
   int *block = malloc(sizeof(int) * 10);             // use to store block number
-  char *fileName = malloc(sizeof(char) * 10);       // use to store file name
+  char *fileName = malloc(sizeof(char) * 50);       // use to store file name
   char *file_data = malloc(sizeof(char) * 1);       // use to store file data
   char *disk_operation = malloc(sizeof(char) * 1);  // use to store disk operation
   //char *fileName = "sample.txt";
@@ -69,7 +69,7 @@ int main(int argc, char *argv[]){
 
   void switch_reading(){
     printf("=================== File Reading ================================\n");
-    printf("Enter File name (Max 10 Bytes long)\n");
+    printf("Enter File name (Max 50 Bytes long)\n");
     scanf("%50s", fileName); // If file_name holds a memory of 50 bytes
 
     printf("Enter Block Number\n");
