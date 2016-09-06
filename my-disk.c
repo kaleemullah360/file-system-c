@@ -131,8 +131,8 @@ int main(int argc, char *argv[]){
   void switch_formating(){
 
     printf("=================== File Formating ================================\n");
-    printf("Enter File name (Max 10 Bytes long)\n");
-    scanf("%10s", fileName); // If file_name holds a memory of 10 bytes to input 10 Bytes we use -> %10s
+    printf("Enter File name (Max 50 Bytes long)\n");
+    scanf("%50s", fileName); // If file_name holds a memory of 50 bytes to input 50 Bytes we use -> %50s
 
     int diskFile = openDisk(fileName, FILE_SIZE * 1);
 
