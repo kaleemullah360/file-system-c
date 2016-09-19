@@ -1,0 +1,25 @@
+SET "String" "This is simple string
+can have only one value."
+SADD "SET" "This is SET
+can have uniques values.
+or can not spans rows."
+SADD "SET" "Member 2
+Member A
+Member B"
+SADD "SET" "Member 1
+Member A
+Member B"
+RPUSH "List" "LPUSH VALUE,This is List
+can have only collection of values.
+or can spans rows,RPUSH VALUE"
+ZADD "Sorted Set" 100 "This is Sorted SET
+can define sorted items, i think.
+1
+2
+3
+5
+4
+6
+9
+8
+7"
