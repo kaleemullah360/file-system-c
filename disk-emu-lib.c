@@ -40,6 +40,8 @@
  * for helping and educational purposes to get familarity with syntax and other libs
  *
  * [1] https://github.com/jmelai/Project.git
+ *
+ * Copyright 2016
  */
 
 #include "disk-emu-lib.h"
