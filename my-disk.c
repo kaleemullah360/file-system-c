@@ -88,7 +88,7 @@ int main(int argc, char *argv[]){
         //printf("buffread[%d] = %c\n", i, read_buffer[i]);  
         printf("%c", read_buffer[i]);
       }
-      printf("\n\n\n+++++++++++++++++++ EndOF ++++++++++++++++++++\n");
+      printf("\n\n\n+++++++++++++++++++ EndOF File ++++++++++++++++++++\n");
       syncDisk();
       closeDisk();
     }else{
