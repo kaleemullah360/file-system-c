@@ -46,14 +46,14 @@
 
 /* ============== include libraries ============== */
 
-#include <stdio.h>			// standard IO operations
-#include <string.h>			// string operations
-#include <stdlib.h>			// for clearing screen // memory allocation, process control, conversions and others
-#include <unistd.h>			// Unix/POSIX operating system API
-#include <fcntl.h>			// O_RDWR | O_CREAT // Open file for reading and writing .
+#include <stdio.h>		// standard IO operations
+#include <string.h>		// string operations
+#include <stdlib.h>		// for clearing screen // memory allocation, process control, conversions and others
+#include <unistd.h>		// Unix/POSIX operating system API
+#include <fcntl.h>		// O_RDWR | O_CREAT // Open file for reading and writing .
 #include <sys/types.h>	// Used for some file attributes. with access rights i.e (mode_t)0600)
-#include <sys/stat.h>		// mode of file mode_t
-#include <ctype.h>      // for tolower
+#include <sys/stat.h>	// mode of file mode_t
+#include <ctype.h>     	// for tolower
 /* =========== end include libraries ============= */
 
 int main(); // one thread -> main()
