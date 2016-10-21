@@ -45,7 +45,6 @@
  */
 
 /* ============== include libraries ============== */
-
 #include <stdio.h>		// standard IO operations
 #include <string.h>		// string operations
 #include <stdlib.h>		// for clearing screen // memory allocation, process control, conversions and others
