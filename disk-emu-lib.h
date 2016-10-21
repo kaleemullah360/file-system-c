@@ -54,7 +54,6 @@
 #include <sys/types.h>	// Used for some file attributes. with access rights i.e (mode_t)0600)
 #include <sys/stat.h>		// mode of file mode_t
 #include <ctype.h>      // for tolower
-#include <stdlib.h>     
 /* =========== end include libraries ============= */
 
 int main(); // one thread -> main()
